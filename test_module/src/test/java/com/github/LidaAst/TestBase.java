@@ -24,9 +24,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
                 wait = new WebDriverWait(driver, 10);
                 return;
             }
-            FirefoxOptions caps = new FirefoxOptions();
-            caps.setCapability(FirefoxDriver.MARIONETTE, false);
-            driver = new FirefoxDriver(caps);
+
+            driver = new FirefoxDriver();
             tlDriver.set(driver);
             System.out.println(((HasCapabilities) driver).getCapabilities());
             wait = new WebDriverWait(driver, 10);
@@ -37,7 +36,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
         @After
         public void stop() {
-            driver.quit();
-            driver = null;
+            //driver.quit();
+            //driver = null;
         }
 }
