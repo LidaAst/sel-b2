@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9601b64e-38ed-45a3-a9a8-b684e9427466" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test_module/src/test/java/com/github/LidaAst/litecart_menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_module/src/test/java/com/github/LidaAst/litecart_main_stickers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_module/out/test/classes/com/github/LidaAst/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/test_module/out/test/classes/com/github/LidaAst/TestBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_module/src/test/java/com/github/LidaAst/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/test_module/src/test/java/com/github/LidaAst/TestBase.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -63,8 +61,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_module/src/test/java/com/github/LidaAst/litecart_login.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="23" selection-start-line="7" selection-start-column="3" selection-end-line="14" selection-end-column="5" />
+            <state relative-caret-position="51">
+              <caret line="3" column="30" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="3" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_module/src/test/java/com/github/LidaAst/litecart_menu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1156">
+              <caret line="68" column="39" selection-start-line="68" selection-start-column="39" selection-end-line="68" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -73,10 +83,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test_module/src/test/java/com/github/LidaAst/litecart_menu.java">
+        <entry file="file://$PROJECT_DIR$/test_module/src/test/java/com/github/LidaAst/litecart_main_stickers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="68" column="10" selection-start-line="68" selection-start-column="10" selection-end-line="68" selection-end-column="10" />
+            <state relative-caret-position="272">
+              <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -105,6 +115,7 @@
         <option value="$PROJECT_DIR$/test_module/src/test/java/com/github/LidaAst/litecart_login.java" />
         <option value="$PROJECT_DIR$/test_module/src/test/java/com/github/LidaAst/TestBase.java" />
         <option value="$PROJECT_DIR$/test_module/src/test/java/com/github/LidaAst/litecart_menu.java" />
+        <option value="$PROJECT_DIR$/test_module/src/test/java/com/github/LidaAst/litecart_main_stickers.java" />
       </list>
     </option>
   </component>
@@ -181,7 +192,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550468963653" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550471640067" />
     <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
@@ -197,7 +208,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.litecart_menu">
+  <component name="RunManager" selected="JUnit.litecart_main_stickers">
     <configuration name="First_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.github.LidaAst.sel-b2.test" />
       <extension name="coverage">
@@ -228,6 +239,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="litecart_main_stickers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test_module.com.github.LidaAst.sel-b2.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.LidaAst.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.LidaAst" />
+      <option name="MAIN_CLASS_NAME" value="com.github.LidaAst.litecart_main_stickers" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="litecart_menu" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test_module.com.github.LidaAst.sel-b2.test" />
       <extension name="coverage">
@@ -245,6 +271,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.litecart_main_stickers" />
         <item itemvalue="JUnit.litecart_menu" />
         <item itemvalue="JUnit.litecart_login" />
         <item itemvalue="JUnit.First_test" />
@@ -269,13 +296,17 @@
       <option name="project" value="LOCAL" />
       <updated>1549687367275</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added Litecart menu test">
+      <created>1550469053524</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1550469053524</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="litecart_login - 2019.02.09 at 12h 41m 17s.xml">
-      <configuration name="litecart_login" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="litecart_login - 2019.02.09 at 12h 41m 39s.xml">
       <configuration name="litecart_login" configurationId="JUnit" />
     </history-entry>
@@ -303,6 +334,9 @@
     <history-entry file="litecart_menu - 2019.02.17 at 21h 13m 36s.xml">
       <configuration name="litecart_menu" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="litecart_menu - 2019.02.17 at 21h 50m 01s.xml">
+      <configuration name="litecart_menu" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -317,12 +351,12 @@
       <window_info id="Favorites" order="6" side_tool="true" weight="0.32980332" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.19645733" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.19645733" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.42880523" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32850242" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3277311" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50075644" side_tool="true" weight="0.86906713" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.299509" />
@@ -370,7 +404,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Litecart login test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Litecart login test" />
+    <MESSAGE value="Added Litecart menu test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Litecart menu test" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/build.gradle">
@@ -468,16 +503,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_module/src/test/java/com/github/LidaAst/litecart_login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="23" selection-start-line="7" selection-start-column="3" selection-end-line="14" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_module/src/test/java/com/github/LidaAst/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
@@ -488,10 +513,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test_module/src/test/java/com/github/LidaAst/litecart_login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="30" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="3" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test_module/src/test/java/com/github/LidaAst/litecart_menu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="68" column="10" selection-start-line="68" selection-start-column="10" selection-end-line="68" selection-end-column="10" />
+        <state relative-caret-position="1156">
+          <caret line="68" column="39" selection-start-line="68" selection-start-column="39" selection-end-line="68" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_module/src/test/java/com/github/LidaAst/litecart_main_stickers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
