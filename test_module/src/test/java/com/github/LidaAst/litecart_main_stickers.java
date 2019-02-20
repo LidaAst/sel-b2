@@ -14,6 +14,7 @@ public class litecart_main_stickers extends TestBase {
         driver.navigate().to("http://localhost/litecart/");
         List<WebElement> products = driver.findElements(By.cssSelector("li.product"));
         for (WebElement product:products){
+
             Assert.assertEquals(1, product.findElements(By.cssSelector("div.sticker")).size());
 
         }

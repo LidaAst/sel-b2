@@ -2,6 +2,7 @@ package com.github.LidaAst;
 
 import org.junit.After;
 import org.junit.Before;
+import org.openqa.selenium.By;
 import org.openqa.selenium.HasCapabilities;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxBinary;
@@ -45,6 +46,11 @@ import java.io.File;
 
             Runtime.getRuntime().addShutdownHook(
                     new Thread(() -> { driver.quit(); driver = null; }));
+
+            driver.navigate().to("http://localhost/litecart/admin/login.php");
+            driver.findElement(By.name("username")).sendKeys("admin");
+            driver.findElement(By.name("password")).sendKeys("admin");
+            driver.findElement(By.name("login")).click();
         }
 
         @After
