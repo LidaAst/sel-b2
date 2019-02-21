@@ -3,7 +3,7 @@ package com.github.LidaAst;
 import org.junit.Test;
 import org.openqa.selenium.By;
 
-public class litecart_menu extends TestBase{
+public class Litecart_menu extends TestBase{
 
     @Test
     public void menuTest(){

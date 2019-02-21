@@ -8,10 +8,10 @@ import java.util.List;
 
 import static org.junit.Assert.fail;
 
-public class litecart_country_zone_test extends TestBase {
+public class Litecart_country_zone_test extends TestBase {
 
     @Test
-    public void countryTest(){
+    /*public void countryTest(){
         driver.navigate().to("http://localhost/litecart/admin/?app=countries&doc=countries");
         List<WebElement> countries = driver.findElements(By.cssSelector("tr.row a:not([title=Edit])"));
         String previousName = "";
@@ -22,6 +22,38 @@ public class litecart_country_zone_test extends TestBase {
                 break;
             }
             previousName=name;
+        }
+
+    }*/
+
+    public void countryTest(){
+        driver.navigate().to("http://localhost/litecart/admin/?app=countries&doc=countries");
+        int numOfCountries = driver.findElements(By.cssSelector("tr.row a:not([title=Edit])")).size();
+        String previousName = "";
+        for (int rowNumber=2; rowNumber<numOfCountries+2; rowNumber++){
+            WebElement row = driver.findElement(By.xpath("//tbody//tr["+rowNumber+"]"));
+            WebElement country = row.findElement(By.cssSelector("a:not([title=Edit])"));
+            String name = country.getText();
+            if (name.compareTo(previousName)<0){
+                fail("Countries are not in alphabetical order: "+previousName+" and "+name);
+                break;
+            }
+            previousName=name;
+            int zoneCount = Integer.parseInt(row.findElement(By.cssSelector("td:nth-child(6)")).getText());
+            if (zoneCount>0){
+                country.click();
+                List<WebElement> zones = driver.findElements(By.cssSelector("input[name*=zones][name*=name]"));
+                String previousZone = "";
+                for (WebElement zone:zones){
+                    String zoneName = zone.getText();
+                    if (zoneName.compareTo(previousZone)<0){
+                        fail("Zones are not in alphabetical order: "+previousZone+" and "+zoneName+" in "+name);
+                        return;
+                    }
+                    previousZone=zoneName;
+                }
+                driver.navigate().to("http://localhost/litecart/admin/?app=countries&doc=countries");
+            }
         }
     }
 
