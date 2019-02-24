@@ -27,6 +27,7 @@ public class Litecart_country_zone_test extends TestBase {
     }*/
 
     public void countryTest(){
+        login();
         driver.navigate().to("http://localhost/litecart/admin/?app=countries&doc=countries");
         int numOfCountries = driver.findElements(By.cssSelector("tr.row a:not([title=Edit])")).size();
         String previousName = "";

@@ -47,11 +47,14 @@ import java.io.File;
             Runtime.getRuntime().addShutdownHook(
                     new Thread(() -> { driver.quit(); driver = null; }));
 
-            /*driver.navigate().to("http://localhost/litecart/admin/login.php");
+        }
+
+        public void login(){
+            driver.navigate().to("http://localhost/litecart/admin/login.php");
             driver.findElement(By.name("username")).sendKeys("admin");
             driver.findElement(By.name("password")).sendKeys("admin");
             driver.findElement(By.name("login")).click();
-            */
+
         }
 
         @After

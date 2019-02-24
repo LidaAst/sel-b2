@@ -10,10 +10,7 @@ public class Litecart_menu_1 extends TestBase {
 
     @Test
     public void litecartMenuTest(){
-        driver.navigate().to("http://localhost/litecart/admin/login.php");
-        driver.findElement(By.name("username")).sendKeys("admin");
-        driver.findElement(By.name("password")).sendKeys("admin");
-        driver.findElement(By.name("login")).click();
+        login();
         int size = driver.findElements(By.id("app-")).size();
         for (int itemNumber=1; itemNumber<=size; itemNumber++){
             String locator = "ul#box-apps-menu li#app-:nth-child("+itemNumber+")";
