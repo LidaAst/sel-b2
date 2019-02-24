@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 
 import java.util.List;
 
-public class Litecart_main_stickers extends TestBase {
+public class LitecartMainStickers extends TestBase {
 
     @Test
     public void stickers_test(){

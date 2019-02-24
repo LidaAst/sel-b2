@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9601b64e-38ed-45a3-a9a8-b684e9427466" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test_module/src/test/java/com/github/LidaAst/LitecartUserRegistration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_module/src/test/java/com/github/LidaAst/LitecartAddProductTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_module/out/test/classes/com/github/LidaAst/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/test_module/out/test/classes/com/github/LidaAst/TestBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_module/src/test/java/com/github/LidaAst/Litecart_country_zone_test.java" beforeDir="false" afterPath="$PROJECT_DIR$/test_module/src/test/java/com/github/LidaAst/Litecart_country_zone_test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_module/src/test/java/com/github/LidaAst/Litecart_login.java" beforeDir="false" afterPath="$PROJECT_DIR$/test_module/src/test/java/com/github/LidaAst/Litecart_login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_module/src/test/java/com/github/LidaAst/Litecart_menu.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_module/src/test/java/com/github/LidaAst/Litecart_menu_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/test_module/src/test/java/com/github/LidaAst/Litecart_menu_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_module/src/test/java/com/github/LidaAst/First_test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_module/src/test/java/com/github/LidaAst/LitecartUserRegistration.java" beforeDir="false" afterPath="$PROJECT_DIR$/test_module/src/test/java/com/github/LidaAst/LitecartUserRegistration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_module/src/test/java/com/github/LidaAst/Litecart_country_zone_test.java" beforeDir="false" afterPath="$PROJECT_DIR$/test_module/src/test/java/com/github/LidaAst/LitecartCountryZoneTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_module/src/test/java/com/github/LidaAst/Litecart_login.java" beforeDir="false" afterPath="$PROJECT_DIR$/test_module/src/test/java/com/github/LidaAst/LitecartLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_module/src/test/java/com/github/LidaAst/Litecart_main_stickers.java" beforeDir="false" afterPath="$PROJECT_DIR$/test_module/src/test/java/com/github/LidaAst/LitecartMainStickers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_module/src/test/java/com/github/LidaAst/Litecart_menu_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/test_module/src/test/java/com/github/LidaAst/LitecartMenuTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_module/src/test/java/com/github/LidaAst/Litecart_product_test.java" beforeDir="false" afterPath="$PROJECT_DIR$/test_module/src/test/java/com/github/LidaAst/LitecartProductTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_module/src/test/java/com/github/LidaAst/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/test_module/src/test/java/com/github/LidaAst/TestBase.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -55,8 +57,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_module/src/test/java/com/github/LidaAst/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="539">
-              <caret line="48" selection-start-line="48" selection-end-line="48" />
+            <state relative-caret-position="255">
+              <caret line="30" column="50" lean-forward="true" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#627#651#0" expanded="true" />
@@ -65,11 +67,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_module/src/test/java/com/github/LidaAst/LitecartUserRegistration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+            <state relative-caret-position="391">
+              <caret line="23" column="36" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="23" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test_module/src/test/java/com/github/LidaAst/LitecartAddProductTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="522">
+              <caret line="60" column="22" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,10 +92,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_module/src/test/java/com/github/LidaAst/Litecart_product_test.java">
+        <entry file="file://$PROJECT_DIR$/test_module/src/test/java/com/github/LidaAst/LitecartMenuTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="5" lean-forward="true" selection-start-line="22" selection-start-column="19" selection-end-line="23" selection-end-column="5" />
+            <state relative-caret-position="204">
+              <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_module/src/test/java/com/github/LidaAst/LitecartCountryZoneTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -113,11 +139,12 @@
         <option value="$PROJECT_DIR$/test_module/src/test/java/com/github/LidaAst/litecart_menu_1.java" />
         <option value="$PROJECT_DIR$/test_module/src/test/java/com/github/LidaAst/litecart_country_zone_test.java" />
         <option value="$PROJECT_DIR$/test_module/src/test/java/com/github/LidaAst/Litecart_product_test.java" />
-        <option value="$PROJECT_DIR$/test_module/src/test/java/com/github/LidaAst/TestBase.java" />
         <option value="$PROJECT_DIR$/test_module/src/test/java/com/github/LidaAst/Litecart_country_zone_test.java" />
         <option value="$PROJECT_DIR$/test_module/src/test/java/com/github/LidaAst/Litecart_login.java" />
         <option value="$PROJECT_DIR$/test_module/src/test/java/com/github/LidaAst/Litecart_menu_1.java" />
         <option value="$PROJECT_DIR$/test_module/src/test/java/com/github/LidaAst/LitecartUserRegistration.java" />
+        <option value="$PROJECT_DIR$/test_module/src/test/java/com/github/LidaAst/TestBase.java" />
+        <option value="$PROJECT_DIR$/test_module/src/test/java/com/github/LidaAst/LitecartAddProductTest.java" />
       </list>
     </option>
   </component>
@@ -194,7 +221,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550974436712" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550987530377" />
     <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
@@ -210,7 +237,67 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LitecartUserRegistration">
+  <component name="RunManager" selected="JUnit.LitecartAddProductTest">
+    <configuration name="LitecartAddProductTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test_module.com.github.LidaAst.sel-b2.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.LidaAst.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.LidaAst" />
+      <option name="MAIN_CLASS_NAME" value="com.github.LidaAst.LitecartAddProductTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LitecartCountryZoneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test_module.com.github.LidaAst.sel-b2.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.LidaAst.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.LidaAst" />
+      <option name="MAIN_CLASS_NAME" value="com.github.LidaAst.LitecartCountryZoneTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LitecartMainStickers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test_module.com.github.LidaAst.sel-b2.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.LidaAst.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.LidaAst" />
+      <option name="MAIN_CLASS_NAME" value="com.github.LidaAst.LitecartMainStickers" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LitecartProductTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test_module.com.github.LidaAst.sel-b2.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.LidaAst.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.LidaAst" />
+      <option name="MAIN_CLASS_NAME" value="com.github.LidaAst.LitecartProductTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LitecartUserRegistration" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test_module.com.github.LidaAst.sel-b2.test" />
       <extension name="coverage">
@@ -226,73 +313,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Litecart_country_zone_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="test_module.com.github.LidaAst.sel-b2.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.github.LidaAst.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.github.LidaAst" />
-      <option name="MAIN_CLASS_NAME" value="com.github.LidaAst.Litecart_country_zone_test" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Litecart_main_stickers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="test_module.com.github.LidaAst.sel-b2.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.github.LidaAst.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.github.LidaAst" />
-      <option name="MAIN_CLASS_NAME" value="com.github.LidaAst.Litecart_main_stickers" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Litecart_menu_1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="test_module.com.github.LidaAst.sel-b2.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.github.LidaAst.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.github.LidaAst" />
-      <option name="MAIN_CLASS_NAME" value="com.github.LidaAst.Litecart_menu_1" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Litecart_product_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="test_module.com.github.LidaAst.sel-b2.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.github.LidaAst.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.github.LidaAst" />
-      <option name="MAIN_CLASS_NAME" value="com.github.LidaAst.Litecart_product_test" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LitecartAddProductTest" />
         <item itemvalue="JUnit.LitecartUserRegistration" />
-        <item itemvalue="JUnit.Litecart_country_zone_test" />
-        <item itemvalue="JUnit.Litecart_product_test" />
-        <item itemvalue="JUnit.Litecart_main_stickers" />
-        <item itemvalue="JUnit.Litecart_menu_1" />
+        <item itemvalue="JUnit.LitecartCountryZoneTest" />
+        <item itemvalue="JUnit.LitecartProductTest" />
+        <item itemvalue="JUnit.LitecartMainStickers" />
       </list>
     </recent_temporary>
   </component>
@@ -363,46 +390,53 @@
       <option name="project" value="LOCAL" />
       <updated>1550735223403</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added account registration test">
+      <created>1550974481576</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1550974481576</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Litecart_product_test - 2019.02.20 at 22h 15m 34s.xml">
-      <configuration name="Litecart_product_test" configurationId="JUnit" />
+    <history-entry file="LitecartUserRegistration - 2019.02.23 at 18h 14m 05s.xml">
+      <configuration name="LitecartUserRegistration" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Litecart_product_test - 2019.02.20 at 22h 26m 59s.xml">
-      <configuration name="Litecart_product_test" configurationId="JUnit" />
+    <history-entry file="LitecartUserRegistration - 2019.02.23 at 19h 41m 57s.xml">
+      <configuration name="LitecartUserRegistration" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Litecart_product_test - 2019.02.20 at 22h 28m 41s.xml">
-      <configuration name="Litecart_product_test" configurationId="JUnit" />
+    <history-entry file="LitecartAddProductTest - 2019.02.23 at 19h 42m 35s.xml">
+      <configuration name="LitecartAddProductTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Litecart_product_test - 2019.02.20 at 22h 30m 15s.xml">
-      <configuration name="Litecart_product_test" configurationId="JUnit" />
+    <history-entry file="LitecartAddProductTest - 2019.02.23 at 20h 08m 54s.xml">
+      <configuration name="LitecartAddProductTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Litecart_product_test - 2019.02.20 at 23h 35m 42s.xml">
-      <configuration name="Litecart_product_test" configurationId="JUnit" />
+    <history-entry file="LitecartAddProductTest - 2019.02.23 at 20h 46m 15s.xml">
+      <configuration name="LitecartAddProductTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Litecart_product_test - 2019.02.20 at 23h 40m 40s.xml">
-      <configuration name="Litecart_product_test" configurationId="JUnit" />
+    <history-entry file="LitecartAddProductTest - 2019.02.23 at 20h 48m 05s.xml">
+      <configuration name="LitecartAddProductTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Litecart_product_test - 2019.02.20 at 23h 43m 33s.xml">
-      <configuration name="Litecart_product_test" configurationId="JUnit" />
+    <history-entry file="LitecartAddProductTest - 2019.02.23 at 21h 07m 50s.xml">
+      <configuration name="LitecartAddProductTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Litecart_product_test - 2019.02.20 at 23h 45m 01s.xml">
-      <configuration name="Litecart_product_test" configurationId="JUnit" />
+    <history-entry file="LitecartAddProductTest - 2019.02.23 at 21h 21m 05s.xml">
+      <configuration name="LitecartAddProductTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Litecart_product_test - 2019.02.20 at 23h 46m 10s.xml">
-      <configuration name="Litecart_product_test" configurationId="JUnit" />
+    <history-entry file="LitecartAddProductTest - 2019.02.23 at 21h 23m 58s.xml">
+      <configuration name="LitecartAddProductTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Litecart_country_zone_test - 2019.02.23 at 13h 32m 09s.xml">
-      <configuration name="Litecart_country_zone_test" configurationId="JUnit" />
+    <history-entry file="LitecartAddProductTest - 2019.02.23 at 21h 24m 36s.xml">
+      <configuration name="LitecartAddProductTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21255673" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21255673" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -411,16 +445,16 @@
       <window_info id="Favorites" order="6" side_tool="true" weight="0.32980332" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.31561998" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.3558776" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4283414" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32850242" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3277311" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3268921" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50075644" side_tool="true" weight="0.86906713" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.299509" />
-      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.32850242" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32850242" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -471,7 +505,8 @@
     <MESSAGE value="Added Countries and Zones tests" />
     <MESSAGE value="Fixed Countries and Zones tests" />
     <MESSAGE value="Added Product UI tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Product UI tests" />
+    <MESSAGE value="Added account registration test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added account registration test" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/build.gradle">
@@ -559,16 +594,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_module/src/test/java/com/github/LidaAst/First_test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_module/src/test/java/com/github/LidaAst/Litecart_menu.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -579,37 +604,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_module/src/test/java/com/github/LidaAst/Litecart_main_stickers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="82" selection-start-line="14" selection-start-column="72" selection-end-line="14" selection-end-column="82" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_module/src/test/java/com/github/LidaAst/Litecart_country_zone_test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_module/src/test/java/com/github/LidaAst/Litecart_menu_1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_module/src/test/java/com/github/LidaAst/Litecart_login.java">
+    <entry file="file://$PROJECT_DIR$/test_module/src/test/java/com/github/LidaAst/LitecartLogin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
@@ -619,10 +614,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test_module/src/test/java/com/github/LidaAst/First_test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test_module/src/test/java/com/github/LidaAst/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        <state relative-caret-position="255">
+          <caret line="30" column="50" lean-forward="true" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#627#651#0" expanded="true" />
@@ -630,10 +635,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_module/src/test/java/com/github/LidaAst/Litecart_product_test.java">
+    <entry file="file://$PROJECT_DIR$/test_module/src/test/java/com/github/LidaAst/LitecartProductTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="22" selection-start-column="19" selection-end-line="23" selection-end-column="5" />
+        <state relative-caret-position="85">
+          <caret line="23" column="5" selection-start-line="22" selection-start-column="19" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_module/src/test/java/com/github/LidaAst/LitecartMainStickers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="82" selection-start-line="14" selection-start-column="72" selection-end-line="14" selection-end-column="82" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -642,8 +657,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_module/src/test/java/com/github/LidaAst/LitecartUserRegistration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        <state relative-caret-position="391">
+          <caret line="23" column="36" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="23" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_module/src/test/java/com/github/LidaAst/LitecartMenuTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_module/src/test/java/com/github/LidaAst/LitecartCountryZoneTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_module/src/test/java/com/github/LidaAst/LitecartAddProductTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="60" column="22" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

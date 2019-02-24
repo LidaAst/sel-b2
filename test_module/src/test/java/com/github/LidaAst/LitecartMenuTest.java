@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 
 import java.util.List;
 
-public class Litecart_menu_1 extends TestBase {
+public class LitecartMenuTest extends TestBase {
 
     @Test
     public void litecartMenuTest(){

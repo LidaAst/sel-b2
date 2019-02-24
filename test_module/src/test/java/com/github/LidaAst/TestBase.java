@@ -48,18 +48,32 @@ import java.io.File;
                     new Thread(() -> { driver.quit(); driver = null; }));
 
         }
+        @After
+        public void stop() {
+            //driver.quit();
+            //driver = null;
+    }
 
         public void login(){
             driver.navigate().to("http://localhost/litecart/admin/login.php");
             driver.findElement(By.name("username")).sendKeys("admin");
             driver.findElement(By.name("password")).sendKeys("admin");
             driver.findElement(By.name("login")).click();
-
         }
 
-        @After
-        public void stop() {
-            //driver.quit();
-            //driver = null;
+        public String randomString(int n){
+            String alphaNumeric = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"+"0123456789"+"abcdefghijklmnopqrstuvxyz";
+            StringBuilder sb = new StringBuilder(n);
+            for (int i = 0; i < n; i++){
+                int index = (int)(alphaNumeric.length()*Math.random());
+                sb.append(alphaNumeric.charAt(index));
+            }
+            return sb.toString();
+        }
+
+        public Integer randomNumber(double max){
+            double min = 0.00;
+            double x = (Math.random()*((max-min)+1))+min;
+                return (int)x;
         }
 }

@@ -5,7 +5,7 @@ import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
-public class Litecart_product_test extends TestBase{
+public class LitecartProductTest extends TestBase{
 
     private int[] colorFinder(String rgb){
         int bracket = rgb.indexOf('(');

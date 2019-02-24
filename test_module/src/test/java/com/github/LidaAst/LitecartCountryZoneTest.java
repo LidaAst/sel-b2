@@ -8,7 +8,7 @@ import java.util.List;
 
 import static org.junit.Assert.fail;
 
-public class Litecart_country_zone_test extends TestBase {
+public class LitecartCountryZoneTest extends TestBase {
 
     @Test
     /*public void countryTest(){

@@ -6,15 +6,6 @@ import org.openqa.selenium.support.ui.Select;
 
 public class LitecartUserRegistration extends TestBase {
 
-    private String randomString(int n){
-        String alphaNumeric = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"+"0123456789"+"abcdefghijklmnopqrstuvxyz";
-        StringBuilder sb = new StringBuilder(n);
-        for (int i = 0; i < n; i++){
-            int index = (int)(alphaNumeric.length()*Math.random());
-            sb.append(alphaNumeric.charAt(index));
-        }
-        return sb.toString();
-    }
 
     private void logout(){
         driver.findElement(By.xpath("//div[@class='content']//a[contains(text(),'Logout')]")).click();
