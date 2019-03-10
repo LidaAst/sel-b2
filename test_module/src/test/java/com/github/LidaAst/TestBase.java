@@ -5,6 +5,7 @@ import org.junit.Before;
 import org.openqa.selenium.By;
 import org.openqa.selenium.HasCapabilities;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxBinary;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -12,6 +13,8 @@ import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.support.events.AbstractWebDriverEventListener;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.File;
@@ -20,9 +23,26 @@ import java.io.File;
 @SuppressWarnings("ALL")
     public class TestBase {
 
-        public static ThreadLocal<WebDriver> tlDriver = new ThreadLocal<>();
-        public WebDriver driver;
+        public static ThreadLocal<EventFiringWebDriver> tlDriver = new ThreadLocal<>();
+        public EventFiringWebDriver driver;
         public WebDriverWait wait;
+
+        public static class MyListener extends AbstractWebDriverEventListener {
+            @Override
+            public void beforeFindBy(By by, WebElement element, WebDriver driver) {
+                System.out.println(by);
+            }
+
+            @Override
+            public void afterFindBy(By by, WebElement element, WebDriver driver) {
+                System.out.println(by + " found");
+            }
+
+            @Override
+            public void onException(Throwable throwable, WebDriver driver) {
+                System.out.println(throwable);
+            }
+        }
 
         @Before
         public void start() {
@@ -33,7 +53,8 @@ import java.io.File;
             }
 
             //driver = new FirefoxDriver();
-            driver = new ChromeDriver();
+            driver = new EventFiringWebDriver(new ChromeDriver());
+            driver.register(new MyListener());
             //driver = new InternetExplorerDriver();
             //FirefoxOptions caps = new FirefoxOptions();
             //caps.setBinary("C:\\Program Files\\Firefox Nightly\\firefox.exe");
